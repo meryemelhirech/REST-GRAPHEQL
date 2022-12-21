@@ -20,7 +20,7 @@ public class ApiApplication {
         return args -> {
 
             for (int i=0 ; i<3 ; i++){
-                compteService.save(new RequestCompteDTO(Math.random()*1000,"DHS", TypeCompte.COURANT));
+                compteService.save(new RequestCompteDTO(Math.random()*1000,"DHS", éTypeCompte.COURANT));
             }
             for (int i=0 ; i<3 ; i++){
                 compteService.save(new RequestCompteDTO(Math.random()*1000,"DHS", TypeCompte.EPARGNE));
